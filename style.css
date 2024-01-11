@@ -16,7 +16,7 @@ main{
     gap: 1.5rem;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 50%;
 }
 h1{
     color: rgb(109, 214, 109);
@@ -44,8 +44,8 @@ h2{
     gap: 2rem;
 }
 .project-pic{
-    height: 7rem;
-    width: 7rem;
+    height: 12rem;
+    width: 12rem;
     border-radius: 50%;
 }
 .project-pic3{
