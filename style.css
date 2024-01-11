@@ -6,7 +6,7 @@
 }
 body{
     background-image: linear-gradient(darkgreen, green, lightgreen, lightgreen, green, darkgreen);
-    width: 100vh;
+    width: fit-content;
     color: lightgreen;
     text-shadow: 2px 2px 2px rgb(3, 27, 3);
 }
@@ -16,7 +16,7 @@ main{
     gap: 1.5rem;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 100%;
 }
 h1{
     color: rgb(109, 214, 109);
@@ -40,7 +40,7 @@ h2{
 }
 .portfolio-tab{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 2rem;
 }
 .project-pic{
