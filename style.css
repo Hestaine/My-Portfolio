@@ -60,3 +60,14 @@ h2{
     flex-direction: column;
     gap: 0.4rem;
 }
+@media screen and 
+(max-width: 599.1px){
+    body{
+        display: block;
+    }
+    .portfolio-tab{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
